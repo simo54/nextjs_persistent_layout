@@ -1,6 +1,8 @@
+import BasicLayout from "../layouts/BasicLayout";
+
 const about = () => {
   return (
-    <div>
+    <BasicLayout>
       <div className={styles.container}>
         <main className={styles.main}>
           <h1 className={styles.title}>
@@ -8,7 +10,7 @@ const about = () => {
           </h1>
         </main>
       </div>
-    </div>
+    </BasicLayout>
   );
 };
 
