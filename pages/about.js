@@ -1,4 +1,5 @@
 import BasicLayout from "../layouts/BasicLayout";
+import styles from "../styles/Home.module.css";
 
 const about = () => {
   return (
